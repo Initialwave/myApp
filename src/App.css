@@ -1,0 +1,82 @@
+.App {
+  text-align: center;
+
+  background-color: rgba(0, 0, 0, 0);
+}
+body {
+  background-image: url("https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cHJvZ3JhbW1pbmd8ZW58MHx8MHx8&w=1000&q=80");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+h1 {
+  color: rgb(255, 255, 255);
+}
+h1:hover {
+  color: rgb(235, 252, 4);
+}
+Form {
+  background-color: rgba(60, 137, 43, 0.3);
+  width: 550px;
+  height: 35%;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -80%);
+  box-shadow: 2px 5px 10px;
+  border-radius: 10px 10px 10px 10px;
+}
+.firstName {
+  margin: 0.5%;
+}
+.firstName:hover {
+  background-color: teal;
+}
+.lastName {
+  margin: 0.5%;
+}
+.lastName:hover {
+  background-color: teal;
+}
+.region {
+  margin: 0.5%;
+}
+.region:hover {
+  background-color: teal;
+}
+.occupation {
+  margin: 0.5%;
+}
+.occupation:hover {
+  background-color: teal;
+}
+.username {
+  margin: 0.5%;
+}
+.username:hover {
+  background-color: teal;
+}
+.email {
+  margin: 0.5%;
+}
+.email:hover {
+  background-color: teal;
+}
+.password {
+  margin: 0.5%;
+}
+.password:hover {
+  background-color: teal;
+}
+.button {
+  margin-top: 2.5%;
+  top: 50%;
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  min-height: 30px;
+  min-width: 120px;
+  color: black;
+}
+.button:hover {
+  background-color: aqua;
+}
